@@ -1,0 +1,417 @@
+[
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "7NUOVpgB-fHB4TuknfMV",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "180403d1590980b9",
+      "operationName": "evt:5, pid:13652, ppid:11084",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "648230eee41e71b8"
+        }
+      ],
+      "startTime": 1753790416776523,
+      "startTimeMillis": 1753790416776,
+      "duration": 2632,
+      "tags": [],
+      "tag": {
+        "EventName": "Processterminated(rule:ProcessTerminate)",
+        "ID": 5,
+        "Image": "C:\\Windows\\System32\\conhost.exe",
+        "ProcessGuid": "6c480258-b7ce-6888-af4a-000000004900",
+        "ProcessId": 13652,
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TimeStamp": "2025-07-29 오후 9:00:14",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 12:00:14.123",
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 11084
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790416776523000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "utUOVpgB-fHB4TuknfMQ",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "9abe932ffb7b1511",
+      "operationName": "evt:5, pid:11084, ppid:17620",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "5c6d1efc0d57f894"
+        }
+      ],
+      "startTime": 1753790415774758,
+      "startTimeMillis": 1753790415774,
+      "duration": 517,
+      "tags": [],
+      "tag": {
+        "EventName": "Processterminated(rule:ProcessTerminate)",
+        "ID": 5,
+        "Image": "C:\\Windows\\System32\\cmd.exe",
+        "ProcessGuid": "6c480258-b7ce-6888-ae4a-000000004900",
+        "ProcessId": 11084,
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TimeStamp": "2025-07-29 오후 9:00:14",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 12:00:14.119",
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 17620
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790415774758000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "vNUOVpgB-fHB4TuknfMQ",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "78d61c9ba15309cc",
+      "operationName": "evt:1, pid:13652, ppid:11084",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "648230eee41e71b8"
+        }
+      ],
+      "startTime": 1753790415772671,
+      "startTimeMillis": 1753790415772,
+      "duration": 2040,
+      "tags": [],
+      "tag": {
+        "CommandLine": "\\\\C:\\WINDOWS\\system32\\conhost.exe 0xffffffff -ForceV1",
+        "Company": "Microsoft Corporation",
+        "CurrentDirectory": "C:\\WINDOWS",
+        "Description": "Console Window Host",
+        "EventName": "ProcessCreate(rule:ProcessCreate)",
+        "FileVersion": "10.0.26100.4768 (WinBuild.160101.0800)",
+        "Hashes": "SHA256=C1CC1D15A76A323FA65E2C4A967F884AFB1238BE1BC3EB61DE9DD1BB59D5EF63",
+        "ID": 1,
+        "Image": "C:\\Windows\\System32\\conhost.exe",
+        "IntegrityLevel": "Medium",
+        "LogonGuid": "6c480258-b56a-6888-cde5-680200000000",
+        "LogonId": 40429005,
+        "OriginalFileName": "CONHOST.EXE",
+        "ParentCommandLine": "cmd.exe /C \"echo %UserProfile%\"",
+        "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+        "ParentProcessGuid": "6c480258-b7ce-6888-ae4a-000000004900",
+        "ParentProcessId": 11084,
+        "ParentUser": "RUFFY\\임현빈",
+        "ProcessGuid": "6c480258-b7ce-6888-af4a-000000004900",
+        "ProcessId": 13652,
+        "Product": "Microsoft® Windows® Operating System",
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TerminalSessionId": 2,
+        "TimeStamp": "2025-07-29 오후 9:00:14",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 12:00:14.081",
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 11084
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790415772671000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "u9UOVpgB-fHB4TuknfMQ",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "bae14779dcf26255",
+      "operationName": "evt:1, pid:11084, ppid:17620",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "5c6d1efc0d57f894"
+        }
+      ],
+      "startTime": 1753790415770975,
+      "startTimeMillis": 1753790415770,
+      "duration": 1666,
+      "tags": [],
+      "tag": {
+        "CommandLine": "cmd.exe /C \"echo %%UserProfile%%\"",
+        "Company": "Microsoft Corporation",
+        "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+        "Description": "Windows Command Processor",
+        "EventName": "ProcessCreate(rule:ProcessCreate)",
+        "FileVersion": "10.0.26100.4768 (WinBuild.160101.0800)",
+        "Hashes": "SHA256=55D95D29D54112FC203D8B2D6335031FD0EF26C56C9459F239760C24DADD3F24",
+        "ID": 1,
+        "Image": "C:\\Windows\\System32\\cmd.exe",
+        "IntegrityLevel": "Medium",
+        "LogonGuid": "6c480258-b56a-6888-cde5-680200000000",
+        "LogonId": 40429005,
+        "OriginalFileName": "Cmd.Exe",
+        "ParentCommandLine": " --vm-id {53cfebbb-db5d-416e-a541-dd01a1f3660d} --handle 2476",
+        "ParentImage": "C:\\Program Files\\WSL\\wslhost.exe",
+        "ParentProcessGuid": "6c480258-b6da-6888-2b47-000000004900",
+        "ParentProcessId": 17620,
+        "ParentUser": "RUFFY\\임현빈",
+        "ProcessGuid": "6c480258-b7ce-6888-ae4a-000000004900",
+        "ProcessId": 11084,
+        "Product": "Microsoft® Windows® Operating System",
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TerminalSessionId": 2,
+        "TimeStamp": "2025-07-29 오후 9:00:14",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 12:00:14.067",
+        "error": true,
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "otel@status_code": "ERROR",
+        "otel@status_description": "Sigma rule matched",
+        "sigma@alert": "WSL Child Process Anomaly",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 17620
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790415770975000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "XsgOVpgBKI65zr0Zk_fd",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "cacb2ba0db7b9b66",
+      "operationName": "evt:5, pid:11084, ppid:13624",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "648230eee41e71b8"
+        }
+      ],
+      "startTime": 1753790196585537,
+      "startTimeMillis": 1753790196585,
+      "duration": 365,
+      "tags": [],
+      "tag": {
+        "EventName": "Processterminated(rule:ProcessTerminate)",
+        "ID": 5,
+        "Image": "C:\\Program Files\\WSL\\wsl.exe",
+        "ProcessGuid": "6c480258-b6ef-6888-0f48-000000004900",
+        "ProcessId": 11084,
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TimeStamp": "2025-07-29 오후 8:56:35",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 11:56:35.261",
+        "error": true,
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "otel@status_code": "ERROR",
+        "otel@status_description": "Sigma rule matched",
+        "sigma@alert": "System File Execution Location Anomaly",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 13624
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790196585537000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "a8gOVpgBKI65zr0Zk_fe",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "cdedce52b4ad1735",
+      "operationName": "evt:1, pid:11084, ppid:13624",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "e96105bea8ae5c59"
+        }
+      ],
+      "startTime": 1753790193044392,
+      "startTimeMillis": 1753790193044,
+      "duration": 1988,
+      "tags": [],
+      "tag": {
+        "CommandLine": "wsl.exe -d Ubuntu-22.04 -e docker serve --address unix:///home/ruffy/.docker/run/docker-cli-api.sock",
+        "Company": "Microsoft Corporation",
+        "CurrentDirectory": "C:\\Users\\임성순\\AppData\\Roaming\\Docker\\",
+        "Description": "Windows Subsystem for Linux",
+        "EventName": "ProcessCreate(rule:ProcessCreate)",
+        "FileVersion": "2.4.13.0",
+        "Hashes": "SHA256=45F6BC4CC18204B84B78E22DE4E727377A076EF042BFF135292318927C003EB0",
+        "ID": 1,
+        "Image": "C:\\Program Files\\WSL\\wsl.exe",
+        "IntegrityLevel": "Medium",
+        "LogonGuid": "6c480258-b56a-6888-cde5-680200000000",
+        "LogonId": 40429005,
+        "OriginalFileName": "wsl.exe",
+        "ParentCommandLine": "wsl.exe -d Ubuntu-22.04 -e docker serve --address unix:///home/ruffy/.docker/run/docker-cli-api.sock",
+        "ParentImage": "C:\\Windows\\System32\\wsl.exe",
+        "ParentProcessGuid": "6c480258-b6ef-6888-0d48-000000004900",
+        "ParentProcessId": 13624,
+        "ParentUser": "RUFFY\\임현빈",
+        "ProcessGuid": "6c480258-b6ef-6888-0f48-000000004900",
+        "ProcessId": 11084,
+        "Product": "Windows Subsystem for Linux",
+        "ProviderGuid": "5770385f-c22a-43e0-bf4c-06f5698ffbd9",
+        "RuleName": "-",
+        "TerminalSessionId": 2,
+        "TimeStamp": "2025-07-29 오후 8:56:31",
+        "User": "RUFFY\\임현빈",
+        "UtcTime": "2025-07-29 11:56:31.227",
+        "error": true,
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "otel@status_code": "ERROR",
+        "otel@status_description": "Sigma rule matched",
+        "sigma@alert": "System File Execution Location Anomaly",
+        "span@kind": "internal",
+        "sysmon@opcode": "Info",
+        "sysmon@ppid": 13624
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790193044392000
+    ]
+  },
+  {
+    "_index": "jaeger-span-2025-07-29",
+    "_id": "XMgOVpgBKI65zr0Zk_fd",
+    "_score": 1,
+    "_source": {
+      "traceID": "18e92849cce8fb0175a9127138051763",
+      "spanID": "648230eee41e71b8",
+      "operationName": "process:11084",
+      "references": [
+        {
+          "refType": "CHILD_OF",
+          "traceID": "18e92849cce8fb0175a9127138051763",
+          "spanID": "e96105bea8ae5c59"
+        }
+      ],
+      "startTime": 1753790193044388,
+      "startTimeMillis": 1753790193044,
+      "duration": 3541512,
+      "tags": [],
+      "tag": {
+        "internal@span@format": "otlp",
+        "otel@library@name": "sysmon.etw",
+        "span@kind": "internal"
+      },
+      "logs": [],
+      "process": {
+        "serviceName": "sysmon-agent",
+        "tags": [],
+        "tag": {
+          "service@instance@id": "e2388c75-2e29-4791-ae67-0ab24120153b",
+          "telemetry@sdk@language": "dotnet",
+          "telemetry@sdk@name": "opentelemetry",
+          "telemetry@sdk@version": "1.9.0"
+        }
+      }
+    },
+    "sort": [
+      1753790193044388000
+    ]
+  }
+]
